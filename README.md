@@ -9,4 +9,4 @@ Upload your resume and paste a job description to instantly get a match score, f
 - Powered by Streamlit, NLP, and scikit-learn
 
 ## 🚀 Live App
-[Click here to try it out](https://your-username-resume-analyzer.streamlit.app)
+[Click here to try it out]([https://your-username-resume-analyzer.streamlit.app](https://resume-analyzer-gakq2yq5uzkwaqv7exsjpj.streamlit.app/))
