@@ -22,6 +22,11 @@ This is a **Resume Analyzer AI** app built with **Streamlit**, **Python**, and *
 
 ## Setup Instructions
 
+## Live Demo
+
+You can try the **Resume Analyzer AI** app here:
+
+[Resume Analyzer AI - Live Demo](https://resume-analyzer-gakq2yq5uzkwaqv7exsjpj.streamlit.app/)
 ### 1. Clone the Repository
 
 ```bash
@@ -29,8 +34,4 @@ git clone https://github.com/amneshpal/resume-analyzer.git
 cd resume-analyzer
 
 
-## Live Demo
 
-You can try the **Resume Analyzer AI** app here:
-
-[Resume Analyzer AI - Live Demo](https://resume-analyzer-gakq2yq5uzkwaqv7exsjpj.streamlit.app/)
