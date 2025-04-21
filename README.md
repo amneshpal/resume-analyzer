@@ -1,12 +1,29 @@
-# 🧠 AI-Powered Resume Analyzer
+# Resume Analyzer AI
 
-Upload your resume and paste a job description to instantly get a match score, find gaps, and improve your job fit.
+This is a **Resume Analyzer AI** app built with **Streamlit**, **Python**, and **scikit-learn**. The app helps you compare a job description (JD) with your resume to determine how well your resume matches the job description. The result is presented as a match score (percentage), giving feedback on how aligned your resume is with the job description.
 
-## 🔍 Features
-- Resume & job description comparison
-- Cosine similarity-based match score
-- Works with PDF & DOCX
-- Powered by Streamlit, NLP, and scikit-learn
+## Features
 
-## 🚀 Live App
-[Click here to try it out]([https://your-username-resume-analyzer.streamlit.app](https://resume-analyzer-gakq2yq5uzkwaqv7exsjpj.streamlit.app/))
+- **Upload Resume**: Upload your resume in PDF or DOCX format.
+- **Job Description**: Paste the job description text.
+- **Match Score**: Get a match score (from 0 to 100%) based on text similarity.
+- **Feedback**: Receive feedback on how to improve your resume for a better match.
+
+## Tech Stack
+
+- **Backend**: Python
+- **Libraries/Frameworks**:
+  - **Streamlit**: For building the interactive web app.
+  - **PyPDF2**: To extract text from PDF files.
+  - **python-docx**: To extract text from DOCX files.
+  - **nltk**: For natural language processing (removing stop words).
+  - **scikit-learn**: To calculate the similarity score using TF-IDF vectorization and cosine similarity.
+- **Deployment**: Streamlit Cloud for hosting the app.
+
+## Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/amneshpal/resume-analyzer.git
+cd resume-analyzer
